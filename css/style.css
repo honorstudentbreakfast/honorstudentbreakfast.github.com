@@ -5,13 +5,13 @@ a { text-decoration: none; color: #29749E; }
 article, aside, dialog, figure, footer, header, hgroup, menu, nav, section { display: block; }
 .location, .dtend { display: none; }
 
-header { margin-left: 40px; float: left; }
+header { margin-left: 40px; float: left; width: 600px; }
   header img.postcard { margin: 39px 0 0 0; border: 1px solid #ccc; /*-moz-box-shadow: 5px 5px 10px #ccc;*/ }
   
-#container { min-width: 1015px; margin: 20px auto; }
+#container { min-width: 1020px; margin: 20px auto; }
 
-#show-list { margin-top: 34px; float: left; padding-top: 5px; margin-left: 20px; }
-  #show-list li { margin-bottom: 4px; overflow: hidden; }
+#show-list { margin-top: 34px; float: left; padding-top: 5px; margin-left: 20px; width: 360px; }
+  #show-list li { margin-bottom: 4px; overflow: hidden; clear: left; }
     #show-list .dtstart { float: left; width: 50px; font-size: 10px; text-transform: uppercase; text-align: right; margin: 4px 30px 0 0; color: #999; }
 
     #show-list .day { font-weight: bold; color: #666;  }
@@ -28,6 +28,7 @@ header { margin-left: 40px; float: left; }
   #show-title h1 a { color: #333; }
 #show-title h2 { font-size: 10px; text-transform: uppercase; margin: 5px 0 14px 2px; color: #888;  }
 
-.social-media-icons { clear: left; margin-top: 14px; }
-.social-media-icons img { margin-right: 3px; }
-.social-media-icons p { float: right; font-size: 14px; }
+.social-media { clear: left; margin-top: 14px; }
+  .social-media .icons { float: left; width: 50%; }
+  .social-media img { margin-right: 3px; }
+  .social-media p { float: right; font-size: 14px; width: 50%; text-align: right; }
