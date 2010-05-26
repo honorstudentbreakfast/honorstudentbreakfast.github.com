@@ -11,18 +11,21 @@ header { margin-left: 40px; float: left; width: 600px; }
 #container { min-width: 1020px; margin: 20px auto; }
 
 #show-list { margin-top: 34px; float: left; padding-top: 5px; margin-left: 20px; width: 360px; }
-  #show-list li { margin-bottom: 4px; overflow: hidden; clear: left; }
+  #show-list li { margin-bottom: 6px; overflow: hidden; clear: left; }
     #show-list .dtstart { float: left; width: 50px; font-size: 10px; text-transform: uppercase; text-align: right; margin: 4px 30px 0 0; color: #999; }
 
     #show-list .day { font-weight: bold; color: #666;  }
     #show-list .extra { font-style: italic; }
 
-    #show-list a { display: block; padding: 5px 40px 3px 0; overflow: hidden; color: #333; }
+    #show-list a.show-link { display: block; padding: 5px 0 3px 0; overflow: hidden; color: #333; }
       #show-list a:hover, #show-list a:hover .description, #show-list a:hover .dtstart, #show-list a:hover .day { color: #29749E; }
 
     #show-list .event-notes { float: left; }
     #show-list .summary { font: 18px/22px Palatino, Georgia, Times, "Times New Roman", serif; }
-    #show-list .description { color: #888; padding-top: 2px; font-size: 11px; }
+    #show-list .description { color: #888; font-size: 11px; }
+    #show-list .extra, #show-list .description { display: block; }
+    
+    #show-list .extra { padding-left: 80px; }
     
 #show-title h1 { font-size: 48px; font-family: "GoudyBookletter1911Regular"; }
   #show-title h1 a { color: #333; }
