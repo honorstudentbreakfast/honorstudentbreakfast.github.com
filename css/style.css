@@ -8,16 +8,16 @@ article, aside, dialog, figure, footer, header, hgroup, menu, nav, section { dis
 header { margin-left: 40px; float: left; width: 600px; }
   header img.postcard { margin: 39px 0 0 0; border: 1px solid #ccc; /*-moz-box-shadow: 5px 5px 10px #ccc;*/ }
   
-#container { min-width: 1020px; margin: 20px auto; }
+#container { min-width: 1000px; margin: 20px auto; }
 
-#show-list { margin-top: 34px; float: left; padding-top: 5px; margin-left: 20px; width: 360px; }
+#show-list { margin-top: 34px; float: left; padding-top: 5px; margin-left: 20px; width: 340px; }
   #show-list li { margin-bottom: 6px; overflow: hidden; clear: left; }
     #show-list .dtstart { float: left; width: 50px; font-size: 10px; text-transform: uppercase; text-align: right; margin: 4px 30px 0 0; color: #999; }
 
     #show-list .day { font-weight: bold; color: #666;  }
-    #show-list .extra { font-style: italic; }
+    #show-list .extra { font-style: italic; clear: left; }
 
-    #show-list a.show-link { display: block; padding: 5px 0 3px 0; overflow: hidden; color: #333; }
+    #show-list a.show-link { display: block; padding: 5px 0 3px 0; overflow: hidden; color: #333; cursor:pointer; }
       #show-list a:hover, #show-list a:hover .description, #show-list a:hover .dtstart, #show-list a:hover .day { color: #29749E; }
 
     #show-list .event-notes { float: left; }
