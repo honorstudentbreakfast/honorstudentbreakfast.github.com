@@ -35,3 +35,6 @@ header { margin-left: 40px; float: left; width: 600px; }
   .social-media .icons { float: left; width: 50%; }
   .social-media img { margin-right: 3px; }
   .social-media p { float: right; font-size: 14px; width: 50%; text-align: right; }
+
+del a { text-decoration: line-through; }
+.canceled { color: red; }
