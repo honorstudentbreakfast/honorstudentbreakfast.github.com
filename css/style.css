@@ -5,36 +5,27 @@ a { text-decoration: none; color: #29749E; }
 article, aside, dialog, figure, footer, header, hgroup, menu, nav, section { display: block; }
 .location, .dtend { display: none; }
 
-header { margin-left: 40px; float: left; width: 600px; }
-  header img.postcard { margin: 39px 0 0 0; border: 1px solid #ccc; /*-moz-box-shadow: 5px 5px 10px #ccc;*/ }
-  
 #container { min-width: 1000px; margin: 20px auto; }
 
-#show-list { margin-top: 34px; float: left; padding-top: 5px; margin-left: 20px; width: 340px; }
-  #show-list li { margin-bottom: 6px; overflow: hidden; clear: left; }
-    #show-list .dtstart { float: left; width: 50px; font-size: 10px; text-transform: uppercase; text-align: right; margin: 4px 30px 0 0; color: #999; }
+  #show-list li { margin-bottom: 19px; overflow: hidden; clear: left; }
+    #show-list .dtstart { float: left; width: 80px; font-size: 10px; text-transform: uppercase; text-align: right; margin: 4px 30px 0 0; color: #666; }
 
-    #show-list .day { font-weight: bold; color: #666;  }
-    #show-list .extra { font-style: italic; clear: left; }
-
-    #show-list a.show-link { display: block; padding: 5px 0 3px 0; overflow: hidden; color: #333; cursor:pointer; }
-      #show-list a:hover, #show-list a:hover .description, #show-list a:hover .dtstart, #show-list a:hover .day { color: #29749E; }
+    /* #show-list .day { font-weight: bold; color: #666;  } */
+    #show-list .extra { padding-top: 3px; font-style: italic; clear: left; }
 
     #show-list .event-notes { float: left; }
-    #show-list .summary { font: 18px/22px Palatino, Georgia, Times, "Times New Roman", serif; }
+    #show-list .summary { font-size: 18px; line-height: 22px; }
     #show-list .description { color: #888; font-size: 11px; }
     #show-list .extra, #show-list .description { display: block; }
-    
-    #show-list .extra { padding-left: 80px; }
-    
-#show-title h1 { font-size: 48px; font-family: "GoudyBookletter1911Regular"; }
-  #show-title h1 a { color: #333; }
-#show-title h2 { font-size: 10px; text-transform: uppercase; margin: 5px 0 14px 2px; color: #888;  }
 
+
+#show-details { padding: 0 20px; }
 .social-media { clear: left; margin-top: 14px; }
   .social-media .icons { float: left; width: 50%; }
   .social-media img { margin-right: 3px; }
   .social-media p { float: right; font-size: 14px; width: 50%; text-align: right; }
 
-del a { text-decoration: line-through; }
-.canceled { color: red; }
+#backstretch { opacity: 0.4; }
+#show-list { background: rgba(255, 255, 255, 0.7); border:20px solid #FFFFFF; margin:40px auto 0; padding:29px 29px 17px; width:500px; }
+  #show-list h1 { font-family:"GoudyBookletter1911Regular"; margin-bottom: 30px; font-size: 40px; text-align: center; }
+#with { text-align: center; font-style: italic; font-family: Georgia; margin-bottom: 30px; }
